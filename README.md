@@ -12,7 +12,7 @@ Open a web browser and access the “http://localhost:8080”
 Install the Quicklisp that is a package manager for Common Lisp. See http://www.quicklisp.org/beta/#installation  
 Install the Caveman2 that is a web application framework for Common Lisp. Open the Quicklisp and type in (ql:quickload “caveman2”)  . See http://8arrow.org/caveman/  
 Install the CL-PPCRE that is a string matching library for Common Lisp. Open the Quicklisp and type in (ql:quickload “cl-ppcre”)  . See http://weitz.de/cl-ppcre/  
-Install the Shelly that is a shell tool to start the web server. Type curl -L http://shlyfile.org/shly | /bin/sh in shell. See http://shlyfile.org  
+Install the Shelly that is a shell tool to start the web server. Type "curl -L http://shlyfile.org/shly | /bin/sh" in shell. See http://shlyfile.org  
 
 ## File Structure
 gomoku/src/search.lisp : This file includes all the AI algorithm code for the web app.  
